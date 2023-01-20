@@ -16,6 +16,7 @@
                 function Tela() {
                 let numeros = document.getElementById("nums").value;
 //                 numeros = numeros.replace(/\s+/g, '');
+                numeros = numeros.trim();  
                 numeros = numeros.split(',');
                 let convertidos = [];
                     for (let i of numeros) {
